@@ -30,14 +30,15 @@ public class CalcoliHelper {
 		return a * b;
 	}
 	
-	/*public static int valoreAssoluto(int a) 
+	public static int valoreAssoluto(int a) 
 	{
 		if(a<0) {
-			return a;
+			return -a;
 		}else {
 			return a;
 		}
-	*/
+		
+	}
 	
 	
 		public static int valoreMinimo(int a, int b) {
@@ -58,6 +59,62 @@ public class CalcoliHelper {
 			}
 			
 		}
+		
+		//creazione stessi metodi ma con double
+		public static double sommaDouble(double a, double b) {
+			return a + b;
+		}
+		
+		public static double differenzaDouble(double a, double b) {
+			return a - b;
+		}
+		
+		public static double moltiplicazione(double a, double b) 
+		{
+
+			return a*b;
+		}
+		
+		public static double valoreAssoluto(double a) 
+		{
+			if(a<0) {
+				return -a;
+			}else {
+				return a;
+			}
+			
+		}
+		
+		public static double valoreMinore(double a, double b) 
+		{
+			if(a<b) {
+				return a;
+			}else {
+				return b;
+			}
+			
+		}
+
+		public static double valoreMinimoDouble(double a, double b) {
+			if (a > b) {
+			 return  b; 
+			}
+			else  {
+				return a;
+			}
+			
+		}
+		/* da sistemare
+		public static int valoreMassimoDouble(double a, double b) {
+			if (a > b) {
+			 return  a; 
+			}
+			else   {
+				return b;
+			}
+			*/
+		}
+		//bonus due metodo elevamento a potenza
 		
 		}
 
